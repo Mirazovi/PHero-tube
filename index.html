@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PHero-tube</title>
+    <style>
+        .container{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body class="w-[90%] m-auto">
+    <header>
+        <nav class="py-3 my-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <img src="image/Logo.png" alt="">
+                </div>
+                <div class="py-1 px-5 rounded-lg text-xl bg-gray-400 " onclick="handleSortData()">
+                    <h1>Sort by view</h1>
+                </div>
+                <a href="/blog.html" class="py-1 px-5 rounded-lg text-xl bg-red-600 text-white ">
+                    <button>Blog</button>
+                </a>
+            </div>
+        </nav>
+            <hr>
+    </header>
+    <main>
+        <section>
+            <div id="menu-container" class="flex gap-4 justify-center my-4">
+
+            </div>
+        </section>
+        <section>
+            <div id="card-container" class="grid lg:grid-cols-4 grid-cols-1 gap-4">
+
+            </div>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
